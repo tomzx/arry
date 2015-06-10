@@ -3,13 +3,18 @@
 	"type": "library",
 	"description": "A set of methods to work on arrays.",
 	"keywords": ["array"],
+	"homepage": "https://github.com/tomzx/arry",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Tom Rochette",
-			"email": "roctom@gmail.com"
+			"email": "tom@tomrochette.com",
+			"homepage": "http://www.tomrochette.com"
 		}
 	],
+	"support": {
+		"issues": "https://github.com/tomzx/arry/issues"
+	},
 	"require": {
 		"php": ">=5.4.0"
 	},
@@ -19,6 +24,11 @@
 	"autoload": {
 		"psr-4": {
 			"Arry\\": "src/Arry"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Arry\\Test\\": "tests/Arry"
 		}
 	},
 	"extra": {

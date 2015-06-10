@@ -1,6 +1,6 @@
 <?php
 
-namespace Arry;
+namespace Arry\Test;
 
 class TestCase extends \PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,8 @@
 <?php
 
-namespace Arry;
+namespace Arry\Test;
+
+use Arry\Arry;
 
 class ArryTest extends TestCase
 {
